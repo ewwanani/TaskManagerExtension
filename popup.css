@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 300px;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  #taskForm {
+    margin-bottom: 10px;
+  }
+  
+  #taskInput {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 5px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #taskList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  .remove-btn {
+    width: 40px;
+    height: 20px;
+    background-color: #0c33f6;
+    color: white;
+    border: none;
+    padding: 0;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .remove-btn:hover {
+    background-color: #7a29a5;
+  }
+
+  .update-btn {
+    width: 40px;
+    height: 20px;
+    background-color: #f0c30c;
+    color: white;
+    border: none;
+    padding: 0;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .update-btn:hover {
+    background-color: #b98f0b;
+  }
+  
+  
